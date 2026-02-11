@@ -21,6 +21,7 @@ body {
     sans-serif;
 }
 
+/* Shared style */
 .header,
 .hero-content {
   max-width: 1000px;
