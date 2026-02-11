@@ -27,7 +27,8 @@ body {
 /* Shared style */
 .header,
 .hero-content,
-.info-section {
+.info-section,
+.testimonial-content {
   max-width: 1000px;
   width: 100%;
 }
@@ -150,4 +151,27 @@ body {
 .info-text {
   text-align: center;
   color: #5a5e64;
+}
+
+/* Testimonial section */
+.testimonial-section {
+  background-color: #e5e7eb;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 112px;
+}
+
+.testimonial-quote {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.testimonial-author {
+  width: 100%;
+  text-align: end;
+  color: #1f2937;
 }
