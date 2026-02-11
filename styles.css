@@ -21,6 +21,12 @@ body {
     sans-serif;
 }
 
+.header,
+.hero-content {
+  max-width: 1000px;
+  width: 100%;
+}
+
 /* Header style */
 .header {
   display: flex;
@@ -47,6 +53,10 @@ body {
 /* Hero style */
 .hero {
   background-color: #1f2937;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-content {
@@ -54,12 +64,15 @@ body {
   height: 100%;
   display: flex;
   justify-content: center;
+  gap: 64px;
+  padding: 112px 0;
 }
 
 .hero-text {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  width: 100%;
 }
 
 .hero-title {
@@ -79,6 +92,7 @@ body {
   justify-content: center;
   width: 100%;
   background-color: #e5e7eb;
+  flex: auto;
 }
 
 .btn {
