@@ -31,20 +31,21 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.header h2 {
+.logo {
   font-size: 24px;
   color: #f9faf8;
 }
 
-.header ul {
+.navigation-list {
   display: flex;
   gap: 12px;
   list-style: none;
 }
 
-.header a {
+.navigation-link {
   font-size: 18px;
   color: #e5e7eb;
   text-decoration: none;
