@@ -28,7 +28,8 @@ body {
 .header,
 .hero-content,
 .info-section,
-.testimonial-content {
+.testimonial-content,
+.cta-section {
   max-width: 1000px;
   width: 100%;
 }
@@ -174,4 +175,37 @@ body {
   width: 100%;
   text-align: end;
   color: #1f2937;
+}
+
+/* Call to action section */
+.cta-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 0;
+}
+
+.cta-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #3882f6;
+  padding: 64px;
+  border-radius: 12px;
+}
+
+.cta-text h4 {
+  color: #f9faf8;
+  font-size: 18px;
+}
+
+.cta-text p {
+  color: #e5e7eb;
+  font-weight: 300;
+}
+
+.cta {
+  align-self: center;
+  border: 1px solid #f9faf8;
 }
